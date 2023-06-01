@@ -1,0 +1,103 @@
+[03/15 14:38:07      0s] 
+[03/15 14:38:07      0s] Cadence Innovus(TM) Implementation System.
+[03/15 14:38:07      0s] Copyright 2019 Cadence Design Systems, Inc. All rights reserved worldwide.
+[03/15 14:38:07      0s] 
+[03/15 14:38:07      0s] Version:	v19.17-s077_1, built Tue Dec 1 11:09:44 PST 2020
+[03/15 14:38:07      0s] Options:	
+[03/15 14:38:07      0s] Date:		Tue Mar 15 14:38:07 2022
+[03/15 14:38:07      0s] Host:		ieng6-ece-05.ucsd.edu (x86_64 w/Linux 3.10.0-1160.49.1.el7.x86_64) (4cores*8cpus*Intel(R) Xeon(R) CPU E5-2650 0 @ 2.00GHz 20480KB)
+[03/15 14:38:07      0s] OS:		CentOS Linux release 7.9.2009 (Core)
+[03/15 14:38:07      0s] 
+[03/15 14:38:07      0s] License:
+[03/15 14:38:07      0s] 		invs	Innovus Implementation System	19.1	checkout succeeded
+[03/15 14:38:07      0s] 		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+[03/15 14:38:24     14s] @(#)CDS: Innovus v19.17-s077_1 (64bit) 12/01/2020 11:09 (Linux 2.6.32-431.11.2.el6.x86_64)
+[03/15 14:38:24     14s] @(#)CDS: NanoRoute 19.17-s077_1 NR201130-0207/19_17-UB (database version 18.20, 510.7.1) {superthreading v1.53}
+[03/15 14:38:24     14s] @(#)CDS: AAE 19.17-s018 (64bit) 12/01/2020 (Linux 2.6.32-431.11.2.el6.x86_64)
+[03/15 14:38:24     14s] @(#)CDS: CTE 19.17-s022_1 () Nov 18 2020 03:10:35 ( )
+[03/15 14:38:24     14s] @(#)CDS: SYNTECH 19.17-s005_1 () Oct 28 2020 05:12:49 ( )
+[03/15 14:38:24     14s] @(#)CDS: CPE v19.17-s044
+[03/15 14:38:24     14s] @(#)CDS: IQuantus/TQuantus 19.1.3-s268 (64bit) Mon Aug 10 22:57:12 PDT 2020 (Linux 2.6.32-431.11.2.el6.x86_64)
+[03/15 14:38:24     14s] @(#)CDS: OA 22.60-s011 Tue Jun 16 12:27:00 2020
+[03/15 14:38:24     14s] @(#)CDS: SGN 20.10-d001 (01-Jun-2020) (64 bit executable, Qt5.9.0)
+[03/15 14:38:24     14s] @(#)CDS: RCDB 11.14.18
+[03/15 14:38:24     14s] @(#)CDS: STYLUS 19.10-s021_1 (10/28/2020 08:51 PDT)
+[03/15 14:38:24     14s] Create and set the environment variable TMPDIR to /tmp/innovus_temp_23171_ieng6-ece-05.ucsd.edu_qic013_0c8HcN.
+
+[03/15 14:38:24     14s] Change the soft stacksize limit to 0.2%RAM (64 mbytes). Set global soft_stack_size_limit to change the value.
+[03/15 14:38:25     14s] 
+[03/15 14:38:25     14s] **INFO:  MMMC transition support version v31-84 
+[03/15 14:38:25     14s] 
+[03/15 14:38:25     14s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[03/15 14:38:25     14s] <CMD> suppressMessage ENCEXT-2799
+[03/15 14:38:25     15s] <CMD> win
+[03/15 14:38:37     17s] <CMD> encMessage warning 0
+[03/15 14:38:37     17s] Suppress "**WARN ..." messages.
+[03/15 14:38:37     17s] <CMD> encMessage debug 0
+[03/15 14:38:37     17s] <CMD> encMessage info 0
+[03/15 14:38:37     18s] **WARN: (IMPLF-200):	Pin 'I' in macro 'ANTENNA' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[03/15 14:38:37     18s] Loading view definition file from /home/linux/ieng6/ee260bwi22/qic013/dual-core-accelerator/part2/pnr/placement.enc.dat/viewDefinition.tcl
+[03/15 14:38:40     20s] *** End library_loading (cpu=0.04min, real=0.05min, mem=21.0M, fe_cpu=0.35min, fe_real=0.55min, fe_mem=754.7M) ***
+[03/15 14:38:40     20s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR4D4' is defined in LEF but not in the timing library.
+[03/15 14:38:40     20s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR4D4' is defined in LEF but not in the timing library.
+[03/15 14:38:40     20s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR4D2' is defined in LEF but not in the timing library.
+[03/15 14:38:40     20s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR4D2' is defined in LEF but not in the timing library.
+[03/15 14:38:40     20s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR4D1' is defined in LEF but not in the timing library.
+[03/15 14:38:40     20s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR4D1' is defined in LEF but not in the timing library.
+[03/15 14:38:40     20s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR4D0' is defined in LEF but not in the timing library.
+[03/15 14:38:40     20s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR4D0' is defined in LEF but not in the timing library.
+[03/15 14:38:40     20s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3D4' is defined in LEF but not in the timing library.
+[03/15 14:38:40     20s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3D4' is defined in LEF but not in the timing library.
+[03/15 14:38:40     20s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3D2' is defined in LEF but not in the timing library.
+[03/15 14:38:40     20s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3D2' is defined in LEF but not in the timing library.
+[03/15 14:38:40     20s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3D1' is defined in LEF but not in the timing library.
+[03/15 14:38:40     20s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3D1' is defined in LEF but not in the timing library.
+[03/15 14:38:40     20s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3D0' is defined in LEF but not in the timing library.
+[03/15 14:38:40     20s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3D0' is defined in LEF but not in the timing library.
+[03/15 14:38:40     20s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2D4' is defined in LEF but not in the timing library.
+[03/15 14:38:40     20s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2D4' is defined in LEF but not in the timing library.
+[03/15 14:38:40     20s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2D2' is defined in LEF but not in the timing library.
+[03/15 14:38:40     20s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2D2' is defined in LEF but not in the timing library.
+[03/15 14:38:40     20s] **WARN: (EMS-27):	Message (IMPVL-159) has exceeded the current message display limit of 20.
+[03/15 14:38:40     20s] To increase the message display limit, refer to the product command reference manual.
+[03/15 14:38:41     21s] *** Netlist is unique.
+[03/15 14:38:41     21s] **WARN: (IMPFP-3961):	The techSite 'dcore' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[03/15 14:38:41     21s] **WARN: (IMPFP-3961):	The techSite 'ccore' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[03/15 14:38:41     22s] Loading preference file /home/linux/ieng6/ee260bwi22/qic013/dual-core-accelerator/part2/pnr/placement.enc.dat/gui.pref.tcl ...
+[03/15 14:38:43     23s] **WARN: (IMPFP-3961):	The techSite 'dcore' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[03/15 14:38:43     23s] **WARN: (IMPFP-3961):	The techSite 'ccore' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[03/15 14:38:43     23s] Loading place ...
+[03/15 14:38:45     25s] **WARN: (IMPEXT-2760):	Layer M9 specified in the cap table is ignored because it is greater than the maximum number of layers, 8, specified in the technology LEF file. Check the cap table for the invalid layer specification.
+[03/15 14:38:45     25s] **WARN: (IMPEXT-2771):	Via VIA_8 specified in the cap table is ignored because its top layer, M9, is greater than the maximum number of layers, 8, specified in the technology LEF file. Check the cap table for the invalid layer specification.
+[03/15 14:38:45     25s] **WARN: (IMPEXT-2801):	Resistance values are not provided in the Cap Table. Sheet resistance defined in the LEF file will be used.
+[03/15 14:38:45     25s] **WARN: (IMPEXT-2710):	Basic Cap table for layer M9 is ignored because the layer is not specified in the technology LEF file.
+[03/15 14:38:45     25s] **WARN: (IMPEXT-2760):	Layer M9 specified in the cap table is ignored because it is greater than the maximum number of layers, 8, specified in the technology LEF file. Check the cap table for the invalid layer specification.
+[03/15 14:38:45     25s] **WARN: (IMPEXT-2771):	Via VIA_8 specified in the cap table is ignored because its top layer, M9, is greater than the maximum number of layers, 8, specified in the technology LEF file. Check the cap table for the invalid layer specification.
+[03/15 14:38:45     25s] **WARN: (IMPEXT-2801):	Resistance values are not provided in the Cap Table. Sheet resistance defined in the LEF file will be used.
+[03/15 14:38:45     25s] **WARN: (IMPEXT-2710):	Basic Cap table for layer M9 is ignored because the layer is not specified in the technology LEF file.
+[03/15 14:38:47     27s] **WARN: (IMPCTE-107):	The following globals have been obsoleted since version 19.17-s077_1. They will be removed in the next release. 
+[03/15 14:38:47     27s] timing_enable_default_delay_arc
+[03/15 14:38:51     28s] <CMD> setDrawView place
+[03/15 14:38:59     29s] 
+--------------------------------------------------------------------------------
+Exiting Innovus on Tue Mar 15 14:38:59 2022
+  Total CPU time:     0:00:33
+  Total real time:    0:00:53
+  Peak memory (main): 1067.10MB
+
+[03/15 14:38:59     29s] 
+[03/15 14:38:59     29s] *** Memory Usage v#1 (Current mem = 1327.719M, initial mem = 283.785M) ***
+[03/15 14:38:59     29s] 
+[03/15 14:38:59     29s] *** Summary of all messages that are not suppressed in this session:
+[03/15 14:38:59     29s] Severity  ID               Count  Summary                                  
+[03/15 14:38:59     29s] WARNING   IMPLF-200            1  Pin '%s' in macro '%s' has no ANTENNAGAT...
+[03/15 14:38:59     29s] WARNING   IMPFP-3961           4  The techSite '%s' has no related standar...
+[03/15 14:38:59     29s] WARNING   IMPEXT-2710          2  Basic Cap table for layer M%d is ignored...
+[03/15 14:38:59     29s] WARNING   IMPEXT-2760          2  Layer M%d specified in the cap table is ...
+[03/15 14:38:59     29s] WARNING   IMPEXT-2771          2  Via %s specified in the cap table is ign...
+[03/15 14:38:59     29s] WARNING   IMPEXT-2801          2  Resistance values are not provided in th...
+[03/15 14:38:59     29s] WARNING   IMPVL-159         1622  Pin '%s' of cell '%s' is defined in LEF ...
+[03/15 14:38:59     29s] WARNING   IMPCTE-107           1  The following globals have been obsolete...
+[03/15 14:38:59     29s] *** Message Summary: 1636 warning(s), 0 error(s)
+[03/15 14:38:59     29s] 
+[03/15 14:38:59     29s] --- Ending "Innovus" (totcpu=0:00:29.9, real=0:00:52.0, mem=1327.7M) ---

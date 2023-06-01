@@ -1,0 +1,106 @@
+#######################################################
+#                                                     
+#  Innovus Command Logging File                     
+<<<<<<< HEAD
+#  Created on Tue Mar 15 20:29:03 2022                
+=======
+#  Created on Tue Mar 15 13:43:49 2022                
+>>>>>>> 30a9f19d40c7add0bb83e53858d4f04a4d532ad9
+#                                                     
+#######################################################
+
+#@(#)CDS: Innovus v19.17-s077_1 (64bit) 12/01/2020 11:09 (Linux 2.6.32-431.11.2.el6.x86_64)
+#@(#)CDS: NanoRoute 19.17-s077_1 NR201130-0207/19_17-UB (database version 18.20, 510.7.1) {superthreading v1.53}
+#@(#)CDS: AAE 19.17-s018 (64bit) 12/01/2020 (Linux 2.6.32-431.11.2.el6.x86_64)
+#@(#)CDS: CTE 19.17-s022_1 () Nov 18 2020 03:10:35 ( )
+#@(#)CDS: SYNTECH 19.17-s005_1 () Oct 28 2020 05:12:49 ( )
+#@(#)CDS: CPE v19.17-s044
+#@(#)CDS: IQuantus/TQuantus 19.1.3-s268 (64bit) Mon Aug 10 22:57:12 PDT 2020 (Linux 2.6.32-431.11.2.el6.x86_64)
+
+set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+suppressMessage ENCEXT-2799
+win
+<<<<<<< HEAD
+=======
+encMessage warning 0
+encMessage debug 0
+encMessage info 0
+is_common_ui_mode
+restoreDesign /home/linux/ieng6/ee260bwi22/qic013/dual-core-accelerator/part2/pnr/placement.enc.dat core
+setDrawView fplan
+encMessage warning 1
+encMessage debug 0
+encMessage info 1
+fit
+zoomIn
+zoomOut
+zoomOut
+fit
+zoomOut
+fit
+checkPinAssignment
+zoomOut
+zoomOut
+zoomIn
+gui_select -rect {-797.13250 1006.97350 210.42450 1069.94550}
+gui_select -rect {-44.96300 895.02250 756.18450 23.90550}
+setLayerPreference node_overlay -isVisible 1
+setLayerPreference congestH -color {#000066 #0000c9 #0053ff #00fcfa #00a953 #53a900 #f9fc00 #ff5300 #ff5858 #ffffff}
+setLayerPreference congestV -color {#000066 #0000c9 #0053ff #00fcfa #00a953 #53a900 #f9fc00 #ff5300 #ff5858 #ffffff}
+fit
+setLayerPreference node_track -isVisible 1
+setLayerPreference node_track -isVisible 0
+gui_select -rect {-36.80000 428.56150 43.66450 322.44150}
+gui_select -rect {-28.63700 737.59250 633.73850 98.54000}
+deselectAll
+deselectAll
+gui_select -rect {-33.30150 764.41400 665.22450 93.87550}
+setLayerPreference stdCell -isVisible 0
+setLayerPreference stdCell -isVisible 1
+setLayerPreference stdCell -isSelectable 0
+setLayerPreference stdCell -isSelectable 1
+setLayerPreference node_track -isVisible 1
+setLayerPreference node_track -isVisible 0
+gui_select -rect {706.04000 436.72450 843.64600 302.61700}
+gui_select -rect {307.21550 617.47850 513.62450 355.09400}
+deselectAll
+gui_select -rect {275.72900 696.77700 538.11400 454.21700}
+deselectAll
+gui_select -rect {470.47700 597.65400 815.65850 285.12450}
+deselectAll
+gui_select -rect {-54.29250 757.41700 795.83400 236.14600}
+deselectAll
+deselectAll
+gui_select -rect {-32.13550 752.75250 821.48900 137.02300}
+deselectAll
+set_ccopt_property -update_io_latency false
+set init_pwr_net VDD
+set init_gnd_net VSS
+set init_verilog ./netlist/core.out.v
+set init_design_netlisttype Verilog
+set init_design_settop 1
+set init_top_cell core
+set init_lef_file /home/linux/ieng6/ee260bwi22/public/PDKdata/lef/tcbn65gplus_8lmT2.lef
+create_library_set -name WC_LIB -timing $worst_timing_lib
+create_library_set -name BC_LIB -timing $best_timing_lib
+create_rc_corner -name Cmax -cap_table $worst_captbl -T 125
+create_rc_corner -name Cmin -cap_table $best_captbl -T -40
+create_delay_corner -name WC -library_set WC_LIB -rc_corner Cmax
+create_delay_corner -name BC -library_set BC_LIB -rc_corner Cmin
+create_constraint_mode -name CON -sdc_file [list $sdc]
+create_analysis_view -name WC_VIEW -delay_corner WC -constraint_mode CON
+create_analysis_view -name BC_VIEW -delay_corner BC -constraint_mode CON
+init_design -setup WC_VIEW -hold BC_VIEW
+set_interactive_constraint_modes {CON}
+setDesignMode -process 65
+set_ccopt_property -update_io_latency false
+create_ccopt_clock_tree_spec -file ./constraints/core.ccopt
+ccopt_design
+set_propagated_clock [all_clocks]
+optDesign -postCTS -hold
+saveDesign cts.enc
+zoomOut
+zoomOut
+zoomOut
+gui_select -rect {-10372.42250 10407.34050 7039.42200 -5335.73800}
+>>>>>>> 30a9f19d40c7add0bb83e53858d4f04a4d532ad9

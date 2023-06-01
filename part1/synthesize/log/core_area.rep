@@ -1,0 +1,70 @@
+ 
+****************************************
+Report : area
+Design : core
+Version: Q-2019.12-SP5-3
+Date   : Fri Mar  4 23:30:59 2022
+****************************************
+
+Information: Updating design information... (UID-85)
+Warning: Design 'core' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+Library(s) Used:
+
+    tcbn65gplustc (File: /home/linux/ieng6/ee260bwi22/public/PDKdata/db/tcbn65gplustc.db)
+
+Number of ports:                        19338
+Number of nets:                         61676
+Number of cells:                        38645
+Number of combinational cells:          29369
+Number of sequential cells:              9104
+Number of macros/black boxes:               0
+Number of buf/inv:                       2436
+Number of references:                       8
+
+Combinational area:             112692.239815
+Buf/Inv area:                     3796.920115
+Noncombinational area:           83102.038177
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                195794.277992
+Total area:                 undefined
+1
+ 
+****************************************
+Report : reference
+Design : core
+Version: Q-2019.12-SP5-3
+Date   : Fri Mar  4 23:31:00 2022
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+BUFFD1             tcbn65gplustc
+                                  1.440000       1      1.440000  
+INVD1              tcbn65gplustc
+                                  1.080000       2      2.160000  
+MUX2D0             tcbn65gplustc
+                                  3.240000     128    414.720001  
+NR2D0              tcbn65gplustc
+                                  1.440000       2      2.880000  
+mac_array_col8_bw8_bw_psum20_pr16
+                              111864.959666
+                                                 1  111864.959666 h, n
+ofifo_col8_bw20               35391.599771       1  35391.599771  h, n
+sram_w16_sram_bit128_0        24061.319277       1  24061.319277  h, n
+sram_w16_sram_bit128_1        24055.199277       1  24055.199277  h, n
+-----------------------------------------------------------------------------
+Total 8 references                                  195794.277992
+1

@@ -1,0 +1,66 @@
+ 
+****************************************
+Report : area
+Design : fullchip
+Version: Q-2019.12-SP5-3
+Date   : Wed Mar 16 10:09:28 2022
+****************************************
+
+Information: Updating design information... (UID-85)
+Warning: Design 'fullchip' contains 2 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+Warning: Clock port 'clk1' is assigned input delay relative to clock 'clk2'. (TIM-111)
+Warning: Clock port 'clk1' is assigned input delay relative to clock 'clk2'. (TIM-111)
+Warning: Clock port 'clk2' is assigned input delay relative to clock 'clk1'. (TIM-111)
+Warning: Clock port 'clk2' is assigned input delay relative to clock 'clk1'. (TIM-111)
+Library(s) Used:
+
+    tcbn65gplustc (File: /home/linux/ieng6/ee260bwi22/public/PDKdata/db/tcbn65gplustc.db)
+
+Number of ports:                        48782
+Number of nets:                        198553
+Number of cells:                       142457
+Number of combinational cells:         115069
+Number of sequential cells:             25160
+Number of macros/black boxes:               0
+Number of buf/inv:                      19967
+Number of references:                       2
+
+Combinational area:             346415.760227
+Buf/Inv area:                    25344.000901
+Noncombinational area:          228036.593531
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                574452.353757
+Total area:                 undefined
+1
+ 
+****************************************
+Report : reference
+Design : fullchip
+Version: Q-2019.12-SP5-3
+Date   : Wed Mar 16 10:09:37 2022
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+core_col8_bw8_bw_psum20_pr16_0
+                              286730.996891
+                                                 1  286730.996891 h, n
+core_col8_bw8_bw_psum20_pr16_1
+                              287721.356866
+                                                 1  287721.356866 h, n
+-----------------------------------------------------------------------------
+Total 2 references                                  574452.353757
+1
